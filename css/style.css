@@ -97,7 +97,7 @@ button:focus {
   outline: none;
 }
 
-button .pointer {
+button .point {
   height: .9rem;
   margin-left: .2rem;
 }
