@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 7rem auto;
+  border-radius: 5px;
+  width: 22rem;
+  background-color: white;
+  box-shadow: whitesmoke;
+}
+
+.circles{
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 0.35rem;
+  height: 0.35rem;
+  background-color: rgba(229, 226, 226, 0.9);
+  color: rgba(229, 226, 226, 0.9);
+  margin-left: .5rem;
+}
+
+.circle1{
+  background-color: grey;
+  color: grey;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, .75);
+}
+
+.brands {
+  margin-top: 2rem;
+}
+
+.brand-logo {
+  height: 2rem;
+  margin: 0 2rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e6e6e6;
+  padding: 1rem 0;
+  color: grey;
+  text-transform: uppercase;
+}
+
+.master-card p {
+  font-weight: 700;
+  color: #000;
+  margin-left: 1.75rem;
+  transform: scale(1.5);
+}
+
+.check {
+  margin-left: 4rem;
+  width: 1rem;
+}
+
+button {
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  background: #598bdd;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button .pointer {
+  height: .9rem;
+  margin-left: .2rem;
+}
